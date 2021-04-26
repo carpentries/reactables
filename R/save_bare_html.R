@@ -1,5 +1,4 @@
 makeDependencyRemote <- function(dependency, baseurl) {
-
   if (!identical(substr(baseurl, nchar(baseurl), nchar(baseurl)), "/")) {
     baseurl <- paste0(baseurl, "/")
   }
@@ -64,5 +63,4 @@ save_bare_html <- function(html, file, libdir = "reactable", baseurl = "https://
   head <- base::file(head_file, open = "w+b")
   on.exit(close(head), add = TRUE)
   writeLines(html$head, head, useBytes = TRUE)
-
 }
