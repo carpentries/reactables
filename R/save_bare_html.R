@@ -1,7 +1,20 @@
+makeDependencyRemote <- function(dependency, baseurl) {
+
+  if (!identical(substr(baseurl, nchar(baseurl), nchar(baseurl)), "/")) {
+    baseurl <- paste0(baseurl, "/")
+  }
+
+  dir <- dependency$src[["file"]]
+  dependency$src <- c(href = paste0(baseurl, dependency$src[["file"]]))
+
+  dependency
+}
+
+
 ## taken from: https://github.com/rstudio/htmltools/blob/62b2f7dcd9fc01d856301d4f3b38d8a7ab56f671/R/html_print.R#L73
 
 ## libdir is created as a subfolder of where file will be written.
-save_bare_html <- function(html, file, libdir = "reactablelib") {
+save_bare_html <- function(html, file, libdir = "reactable", baseurl = "https://files.carpentries.org") {
   force(html)
   force(libdir)
 
@@ -24,6 +37,7 @@ save_bare_html <- function(html, file, libdir = "reactablelib") {
   deps <- lapply(rendered$dependencies, function(dep) {
     dep <- copyDependencyToDir(dep, libdir, FALSE)
     dep <- makeDependencyRelative(dep, dir, FALSE)
+    dep <- makeDependencyRemote(dep, baseurl)
     dep
   })
 
