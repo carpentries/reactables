@@ -26,8 +26,10 @@ save_bare_html <- function(html, file, libdir = "reactable", baseurl = "https://
     dir.create(dir, recursive = TRUE)
   }
   dir <- normalizePath(dirname(file), mustWork = TRUE)
-  file <- file.path(dir, paste0("_content_", basename(file)))
+
+  content_file <- file.path(dir, paste0("_content_", basename(file)))
   head_file <- file.path(dir, paste0("_head_", basename(file)))
+
   owd <- setwd(dir)
   on.exit(setwd(owd), add = TRUE)
 
@@ -52,7 +54,7 @@ save_bare_html <- function(html, file, libdir = "reactable", baseurl = "https://
   )
 
   # Write to file in binary mode, so \r\n in input doesn't become \r\r\n
-  body <- base::file(file, open = "w+b")
+  body <- base::file(content_file, open = "w+b")
   on.exit(close(body), add = TRUE)
   writeLines(html$body, body, useBytes = TRUE)
 
