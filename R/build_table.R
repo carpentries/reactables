@@ -118,5 +118,3 @@ build_issue_table <- function(issue_data) {
     class = "issue-tbl"
   )
 }
-
-build_table(issue_data)
