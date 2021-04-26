@@ -26,7 +26,7 @@ save_bare_html <- function(html, file, libdir = "reactable", baseurl = "https://
     dir.create(dir, recursive = TRUE)
   }
   dir <- normalizePath(dirname(file), mustWork = TRUE)
-  file <- file.path(dir, basename(file))
+  file <- file.path(dir, paste0("_content_", basename(file)))
   head_file <- file.path(dir, paste0("_head_", basename(file)))
   owd <- setwd(dir)
   on.exit(setwd(owd), add = TRUE)
@@ -47,10 +47,6 @@ save_bare_html <- function(html, file, libdir = "reactable", baseurl = "https://
       rendered$head
     ),
     body = c(
-      "---",
-      "layout: reactable",
-      "permalink: help-react",
-      "---",
       rendered$html
     )
   )
