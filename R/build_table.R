@@ -22,7 +22,7 @@ issue_data <- issue_data[, c(
   "clean_description"
 )]
 
-build_table <- function(issue_data) {
+build_issue_table <- function(issue_data) {
 
   tbl <- reactable(
     issue_data,
