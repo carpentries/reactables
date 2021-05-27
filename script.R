@@ -32,6 +32,7 @@ lesson_data <- lesson_data[, c(
   "repo",
   "life_cycle_tag",
   "lesson_tags",
+  "org_full_name",
   "carpentries_org",
   "repo_url",
   "full_name",

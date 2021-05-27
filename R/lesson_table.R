@@ -23,11 +23,15 @@ build_lesson_table <- function(lesson_data) {
       github_topics = colDef(
         show = FALSE
       ),
+      org_full_name = colDef(
+        name = "Organisation",
+        filterable = TRUE
+      ),
       life_cycle_tag = colDef(
         name = "Life Cycle Stage",
         filterable = TRUE,
         class = function(value) {
-          paste0("<p class='", value, "'>", value, "</p>")
+          paste0("life-cycle-", value)
         }
       ),
       lesson_tags = colDef(
@@ -44,8 +48,7 @@ build_lesson_table <- function(lesson_data) {
         filterable = TRUE
       ),
       carpentries_org = colDef(
-        name = "Organisation",
-        filterable = TRUE
+        show = FALSE
       ),
       repo = colDef(
         name = "Repository",
