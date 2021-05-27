@@ -31,7 +31,7 @@ build_lesson_table <- function(lesson_data) {
         name = "Life Cycle Stage",
         filterable = TRUE,
         class = function(value) {
-          paste0("<p class='", value, "'>", value, "</p>")
+          paste0("life-cycle-", value)
         }
       ),
       lesson_tags = colDef(
