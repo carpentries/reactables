@@ -1,5 +1,7 @@
 {
   "default" : "0000000000000000000000000000000000000000",
   "carpentries/styles" : "e83e2c9bdeb259fcb7b12ae21da8f6eac8ff34a4",
-  "zkamvar/bookish-giggle": "c26fdf32253acb5f03e3ebc75d8792309c1feb20"
+  "zkamvar/bookish-giggle" : "c26fdf32253acb5f03e3ebc75d8792309c1feb20",
+  "fishtree-attempt/R-ecology-lesson" : "b99f2de74d7d7f2ae62c3471bb8648a648c853ea",
+  "datacarpentry/R-ecology-lesson" : "b99f2de74d7d7f2ae62c3471bb8648a648c853ea"
 }
