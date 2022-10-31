@@ -45,6 +45,7 @@ jobs:
 
       - name: Install system dependencies
         run: |
+          sudo apt update
           while read -r cmd
           do
             eval sudo $cmd
