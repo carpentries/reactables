@@ -8,7 +8,8 @@ Authors@R:
              email = "tobyhodges@carpentries.org"),
       person(given = "François",
              family = "Michonneau",
-             role = c("ctb"))
+             role = c("ctb")),
+      person())
 Description: What the package does (one paragraph).
 License: MIT + file LICENSE
 Encoding: UTF-8
