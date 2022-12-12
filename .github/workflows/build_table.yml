@@ -19,7 +19,7 @@ jobs:
 
     steps:
       - name: checkout the Repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
     ### Install R ------------------------------------------------------------
 
@@ -28,34 +28,40 @@ jobs:
         with:
           use-public-rspm: true
           install-r: false
+    - name: Set up dependencies
+      uses: r-lib/actions/setup-r-dependencies@v2
+        with: 
+          extra-packages: |
+            local::.
+            any::sessioninfo
 
-      - name: Query dependencies
-        run: |
-          install.packages(setdiff(c('remotes', 'sessioninfo'), installed.packages()[, "Package"]))
-          saveRDS(remotes::dev_package_deps(dependencies = TRUE), ".github/depends.Rds", version = 2)
-          writeLines(sprintf("R-%i.%i", getRversion()$major, getRversion()$minor), ".github/R-version")
-        shell: Rscript {0}
+      # - name: Query dependencies
+      #   run: |
+      #     install.packages(setdiff(c('remotes', 'sessioninfo'), installed.packages()[, "Package"]))
+      #     saveRDS(remotes::dev_package_deps(dependencies = TRUE), ".github/depends.Rds", version = 2)
+      #     writeLines(sprintf("R-%i.%i", getRversion()$major, getRversion()$minor), ".github/R-version")
+      #   shell: Rscript {0}
 
-      - name: Cache R packages
-        uses: actions/cache@v2
-        with:
-          path: ${{ env.R_LIBS_USER }}
-          key: ${{ hashFiles('.github/R-version') }}-1-${{ hashFiles('.github/depends.Rds') }}
-          restore-keys: ${{ hashFiles('.github/R-version') }}-1-
+      # - name: Cache R packages
+      #   uses: actions/cache@v2
+      #   with:
+      #     path: ${{ env.R_LIBS_USER }}
+      #     key: ${{ hashFiles('.github/R-version') }}-1-${{ hashFiles('.github/depends.Rds') }}
+      #     restore-keys: ${{ hashFiles('.github/R-version') }}-1-
 
-      - name: Install system dependencies
-        run: |
-          sudo apt update
-          while read -r cmd
-          do
-            eval sudo $cmd
-          done < <(Rscript -e 'writeLines(remotes::system_requirements("ubuntu", "20.04"))')
-      - name: Install dependencies
-        run: |
-          remotes::install_deps(dependencies = TRUE)
-          ## for system packages
-          update.packages(lib.loc = Sys.getenv("R_LIBS_USER"), ask = FALSE, checkBuilt = TRUE)
-        shell: Rscript {0}
+      # - name: Install system dependencies
+      #   run: |
+      #     sudo apt update
+      #     while read -r cmd
+      #     do
+      #       eval sudo $cmd
+      #     done < <(Rscript -e 'writeLines(remotes::system_requirements("ubuntu", "20.04"))')
+      # - name: Install dependencies
+      #   run: |
+      #     remotes::install_deps(dependencies = TRUE)
+      #     ## for system packages
+      #     update.packages(lib.loc = Sys.getenv("R_LIBS_USER"), ask = FALSE, checkBuilt = TRUE)
+      #   shell: Rscript {0}
 
       - name: Session info
         run: |
