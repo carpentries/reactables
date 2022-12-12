@@ -28,12 +28,12 @@ jobs:
         with:
           use-public-rspm: true
           install-r: false
-    - name: Set up dependencies
-      uses: r-lib/actions/setup-r-dependencies@v2
-        with: 
-          extra-packages: |
-            local::.
-            any::sessioninfo
+      - name: Set up dependencies
+        uses: r-lib/actions/setup-r-dependencies@v2
+          with: 
+            extra-packages: |
+              local::.
+              any::sessioninfo
 
       # - name: Query dependencies
       #   run: |
