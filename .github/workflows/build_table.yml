@@ -28,6 +28,8 @@ jobs:
         with:
           use-public-rspm: true
           install-r: false
+      - name: Update apt
+        run: sudo apt update -y
       - name: Set up dependencies
         uses: r-lib/actions/setup-r-dependencies@v2
         with: 
