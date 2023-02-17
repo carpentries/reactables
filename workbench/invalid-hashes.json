@@ -9,5 +9,6 @@
   "datacarpentry/python-ecology-lesson-es" : "d5206407b346c98a322cfb43de3af8e9f78678ce",
   "librarycarpentry/lc-shell" : "37796ecdd2e321deb8b153b7fcd7bc073668bea4",
   "carpentries-incubator/managing-computational-projects" : "a35662202317651e8858da9d863e2ac4dd18b32f",
+  "carpentries-incubator/bioc-intro" : "cd629438ff25e930eb4d52b06e8f530b1b6650ef",
   "carpentries/instructor-training": "b4fbb1fcd0f6850d57dfb6f0a136bc255ac1e900"
 }
