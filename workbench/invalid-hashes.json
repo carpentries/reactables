@@ -8,5 +8,6 @@
   "datacarpentry/r-raster-vector-geospatial" : "757a195fc2c5a48bc002c2cf425e9345cb6ea0b9",
   "datacarpentry/python-ecology-lesson-es" : "d5206407b346c98a322cfb43de3af8e9f78678ce",
   "librarycarpentry/lc-shell" : "37796ecdd2e321deb8b153b7fcd7bc073668bea4",
+  "carpentries-incubator/managing-computational-projects" : "a35662202317651e8858da9d863e2ac4dd18b32f",
   "carpentries/instructor-training": "b4fbb1fcd0f6850d57dfb6f0a136bc255ac1e900"
 }
