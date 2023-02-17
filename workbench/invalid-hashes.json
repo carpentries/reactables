@@ -10,5 +10,6 @@
   "librarycarpentry/lc-shell" : "37796ecdd2e321deb8b153b7fcd7bc073668bea4",
   "carpentries-incubator/managing-computational-projects" : "a35662202317651e8858da9d863e2ac4dd18b32f",
   "carpentries-incubator/bioc-intro" : "cd629438ff25e930eb4d52b06e8f530b1b6650ef",
+  "carpentries-incubator/bioc-rnaseq" : "b13a45ec77a42f85edf5f6c1f8a341f072275f91",
   "carpentries/instructor-training": "b4fbb1fcd0f6850d57dfb6f0a136bc255ac1e900"
 }
