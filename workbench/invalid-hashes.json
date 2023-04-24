@@ -12,6 +12,7 @@
   "librarycarpentry/lc-git" : "37796ecdd2e321deb8b153b7fcd7bc073668bea4",
   "librarycarpentry/lc-shell" : "37796ecdd2e321deb8b153b7fcd7bc073668bea4",
   "librarycarpentry/lc-spreadsheets" : "e83e2c9bdeb259fcb7b12ae21da8f6eac8ff34a4",
+  "swcarpentry/make-novice" : "b4fbb1fcd0f6850d57dfb6f0a136bc255ac1e900",
   "swcarpentry/python-novice-inflammation" : "b4fbb1fcd0f6850d57dfb6f0a136bc255ac1e900",
   "swcarpentry/shell-novice-es" : "bee46a95a5080df99a6395b9641a8d2111f8922b",
   "carpentries-incubator/managing-computational-projects" : "a35662202317651e8858da9d863e2ac4dd18b32f",
