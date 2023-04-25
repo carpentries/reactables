@@ -10,6 +10,7 @@
   "datacarpentry/python-ecology-lesson-es" : "d5206407b346c98a322cfb43de3af8e9f78678ce",
   "librarycarpentry/lc-data-intro-archives" : "7cda66f03340f1a6de850cee66ac2a93afa5a418",
   "librarycarpentry/lc-git" : "37796ecdd2e321deb8b153b7fcd7bc073668bea4",
+  "librarycarpentry/lc-marcedit" : "e83e2c9bdeb259fcb7b12ae21da8f6eac8ff34a4",
   "librarycarpentry/lc-shell" : "37796ecdd2e321deb8b153b7fcd7bc073668bea4",
   "librarycarpentry/lc-spreadsheets" : "e83e2c9bdeb259fcb7b12ae21da8f6eac8ff34a4",
   "swcarpentry/make-novice" : "b4fbb1fcd0f6850d57dfb6f0a136bc255ac1e900",
