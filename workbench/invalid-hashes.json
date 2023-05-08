@@ -9,6 +9,7 @@
   "datacarpentry/image-processing" : "e83e2c9bdeb259fcb7b12ae21da8f6eac8ff34a4",
   "datacarpentry/openrefine-socialsci" : "e83e2c9bdeb259fcb7b12ae21da8f6eac8ff34a4",
   "datacarpentry/organization-genomics" : "0f8ff210f09453a38b5dde36af4191d3c1111d0e",
+  "datacarpentry/shell-genomics" : "011bf377f3f0d0911f4c17747189496fe244db3b",
   "datacarpentry/organization-geospatial" : "fdf490b17ff274378421e020f28a85140610be0c",
   "datacarpentry/r-intro-geospatial" : "b4fbb1fcd0f6850d57dfb6f0a136bc255ac1e900",
   "datacarpentry/python-socialsci" : "e83e2c9bdeb259fcb7b12ae21da8f6eac8ff34a4",
