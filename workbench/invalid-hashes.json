@@ -32,6 +32,7 @@
   "librarycarpentry/lc-r" : "e83e2c9bdeb259fcb7b12ae21da8f6eac8ff34a4",
   "librarycarpentry/lc-spreadsheets" : "e83e2c9bdeb259fcb7b12ae21da8f6eac8ff34a4",
   "swcarpentry/git-novice-es" : "b4fbb1fcd0f6850d57dfb6f0a136bc255ac1e900",
+  "swcarpentry/git-novice" : "b4fbb1fcd0f6850d57dfb6f0a136bc255ac1e900",
   "swcarpentry/make-novice" : "b4fbb1fcd0f6850d57dfb6f0a136bc255ac1e900",
   "swcarpentry/matlab-novice-inflammation" : "b4fbb1fcd0f6850d57dfb6f0a136bc255ac1e900",
   "swcarpentry/python-novice-inflammation" : "b4fbb1fcd0f6850d57dfb6f0a136bc255ac1e900",
