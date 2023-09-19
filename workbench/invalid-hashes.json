@@ -7,6 +7,7 @@
   "datacarpentry/cloud-genomics" : "3dd0c78159a57e45f7221a36ada173fc089ee18a",
   "datacarpentry/wrangling-genomics" : "39cd0205ecc4667c99ab7b4d89cf96240811ce2e",
   "datacarpentry/genomics-r-intro" : "e83e2c9bdeb259fcb7b12ae21da8f6eac8ff34a4",
+  "datacarpentry/genomics-workshop" : "f4c1d927c936b42dcebb8d02699188afaefd45c2",
   "datacarpentry/image-processing" : "e83e2c9bdeb259fcb7b12ae21da8f6eac8ff34a4",
   "datacarpentry/openrefine-socialsci" : "e83e2c9bdeb259fcb7b12ae21da8f6eac8ff34a4",
   "datacarpentry/organization-genomics" : "0f8ff210f09453a38b5dde36af4191d3c1111d0e",
