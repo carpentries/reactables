@@ -58,5 +58,6 @@
   "carpentries-incubator/good-enough-practices" : "b9c50160fbf5173f7c726d865774efeb774c582f",
   "carpentries/maintainter-onboarding" : "e83e2c9bdeb259fcb7b12ae21da8f6eac8ff34a4",
   "carpentries/instructor-training": "b4fbb1fcd0f6850d57dfb6f0a136bc255ac1e900",
-  "carpentries/instructor-training-bonus-modules": "e83e2c9bdeb259fcb7b12ae21da8f6eac8ff34a4"
+  "carpentries/instructor-training-bonus-modules": "e83e2c9bdeb259fcb7b12ae21da8f6eac8ff34a4",
+  "carpentries/python-humanities-lesson": "d5206407b346c98a322cfb43de3af8e9f78678ce"
 }
