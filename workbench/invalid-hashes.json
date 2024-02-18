@@ -59,5 +59,6 @@
   "carpentries/maintainter-onboarding" : "e83e2c9bdeb259fcb7b12ae21da8f6eac8ff34a4",
   "carpentries/instructor-training": "b4fbb1fcd0f6850d57dfb6f0a136bc255ac1e900",
   "carpentries/instructor-training-bonus-modules": "e83e2c9bdeb259fcb7b12ae21da8f6eac8ff34a4",
-  "carpentries-incubator/python-humanities-lesson": "d5206407b346c98a322cfb43de3af8e9f78678ce"
+  "carpentries-incubator/python-humanities-lesson": "d5206407b346c98a322cfb43de3af8e9f78678ce",
+  "carpentries-incubator/SDC-BIDS-fMRI": "91446676f8d1011d17a47308feddaf5bbd75b694"
 }
