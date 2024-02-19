@@ -63,5 +63,6 @@
   "carpentries-incubator/SDC-BIDS-IntroMRI": "91446676f8d1011d17a47308feddaf5bbd75b694",
   "carpentries-incubator/SDC-BIDS-fMRI": "91446676f8d1011d17a47308feddaf5bbd75b694",
   "carpentries-incubator/SDC-BIDS-dMRI": "91446676f8d1011d17a47308feddaf5bbd75b694",
-  "carpentries-incubator/SDC-BIDS-sMRI": "cb8191e8d19c8734b863a11b31c8fd40fdcc74c8"
+  "carpentries-incubator/SDC-BIDS-sMRI": "cb8191e8d19c8734b863a11b31c8fd40fdcc74c8",
+  "carpentries-incubator/SDC-BIDS-EEG-EEGLAB": "91446676f8d1011d17a47308feddaf5bbd75b694"
 }
