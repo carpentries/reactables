@@ -55,6 +55,7 @@
   "carpentries-incubator/bioc-intro" : "cd629438ff25e930eb4d52b06e8f530b1b6650ef",
   "carpentries-incubator/bioc-rnaseq" : "b13a45ec77a42f85edf5f6c1f8a341f072275f91",
   "carpentries-incubator/bioc-project" : "a8e8d10ba3c8ab745573ac939c24e949494938d7",
+  "carpentries-incubator/blogging-with-hugo-and-github-pages": e83e2c9bdeb259fcb7b12ae21da8f6eac8ff34a4,
   "carpentries-incubator/gap-lesson" : "b4fbb1fcd0f6850d57dfb6f0a136bc255ac1e900",
   "carpentries-incubator/good-enough-practices" : "b9c50160fbf5173f7c726d865774efeb774c582f",
   "carpentries/maintainer-onboarding" : "e83e2c9bdeb259fcb7b12ae21da8f6eac8ff34a4",
@@ -68,6 +69,5 @@
   "carpentries-incubator/SDC-BIDS-EEG-EEGLAB": "91446676f8d1011d17a47308feddaf5bbd75b694",
   "carpentries-incubator/python-intermediate-development": "e83e2c9bdeb259fcb7b12ae21da8f6eac8ff34a4",
   "carpentries-lab/python-aos-lesson": "e83e2c9bdeb259fcb7b12ae21da8f6eac8ff34a4",
-  "carpentries/trainer-training": "91446676f8d1011d17a47308feddaf5bbd75b694",
-  "carpentries-incubator/blogging-with-hugo-and-github-pages": e83e2c9bdeb259fcb7b12ae21da8f6eac8ff34a4
+  "carpentries/trainer-training": "91446676f8d1011d17a47308feddaf5bbd75b694"
 }
